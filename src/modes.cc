@@ -183,7 +183,7 @@ int sllm::AssociateArch()
   EndSkipWFlag->Nr[0]->CN(SkipW->Nr[PhSize], 1);
   EndSkipWFlag->SC(BlankSkipWFlag, 1);
   EndSkipWFlag->SB(-0.5);
-  EndWordGroupFlag->Nr[0]->CN(WGI->Nr[2], 1);
+  EndWordGroupFlag->Nr[0]->CN(WGI->Nr[3], 1);
   EndWordGroupFlag->Nr[0]->CN(PhI->Nr[PhSize-1], 1);
   EndWordGroupFlag->SC(CW->Default, 1);
   EndWordGroupFlag->SB(-0.5);
